@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Igor Kantor</title>
-    <link>http://devfire.io/categories/</link>
-    <description>Recent content in Categories on Igor Kantor</description>
+    <title>Categories on Igor Kantor Site</title>
+    <link>https://devfire.io/categories/</link>
+    <description>Recent content in Categories on Igor Kantor Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="http://devfire.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://devfire.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

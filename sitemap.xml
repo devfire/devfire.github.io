@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://demo.stack.jimmycai.com/</loc>
+    <loc>https://devfire.io/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/archives/</loc>
+    <loc>https://devfire.io/archives/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/categories/</loc>
+    <loc>https://devfire.io/categories/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/categories/general/</loc>
+    <loc>https://devfire.io/categories/general/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/tags/hello-world/</loc>
+    <loc>https://devfire.io/tags/hello-world/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/page/</loc>
+    <loc>https://devfire.io/page/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/post/</loc>
+    <loc>https://devfire.io/post/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/tags/</loc>
+    <loc>https://devfire.io/tags/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/p/hello-world/</loc>
+    <loc>https://devfire.io/p/hello-world/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/categories/example-category/</loc>
+    <loc>https://devfire.io/categories/example-category/</loc>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/links/</loc>
+    <loc>https://devfire.io/links/</loc>
   </url><url>
-    <loc>https://demo.stack.jimmycai.com/search/</loc>
+    <loc>https://devfire.io/search/</loc>
   </url>
 </urlset>

@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://devfire.io/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+    <loc>https://devfire.io/p/rust-lifetimes/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://devfire.io/archives/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+    <loc>https://devfire.io/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/categories/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/lifetimes/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/post/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/programming/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/categories/rust/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/rust/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/archives/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/categories/general/</loc>
@@ -18,12 +39,6 @@
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/page/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devfire.io/post/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devfire.io/tags/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/p/hello-world/</loc>

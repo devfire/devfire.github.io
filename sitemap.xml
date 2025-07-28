@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://devfire.io/p/an-interesting-trip-to-italian-countryside/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
     <loc>https://devfire.io/p/rust-lifetimes/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/</loc>
-    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/categories/</loc>
-    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
   </url><url>
-    <loc>https://devfire.io/tags/lifetimes/</loc>
-    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+    <loc>https://devfire.io/tags/countryside/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/italian-culture/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/italy/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/post/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/rural-travel/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/categories/travel/</loc>
+    <lastmod>2025-07-28T00:18:50+00:00</lastmod>
+  </url><url>
+    <loc>https://devfire.io/tags/lifetimes/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/tags/programming/</loc>
@@ -24,9 +45,6 @@
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/tags/rust/</loc>
-    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://devfire.io/tags/</loc>
     <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://devfire.io/archives/</loc>

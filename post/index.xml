@@ -6,7 +6,21 @@
         <description>Recent content in Posts on General thoughts on tech and travel.</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 28 Jul 2025 00:18:50 +0000</lastBuildDate><atom:link href="https://devfire.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Jul 2025 00:31:51 +0000</lastBuildDate><atom:link href="https://devfire.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The Importance of CI/CD in Modern Software Development</title>
+        <link>https://devfire.io/p/importance-of-ci-cd-modern-software-development/</link>
+        <pubDate>Mon, 28 Jul 2025 00:31:51 +0000</pubDate>
+        
+        <guid>https://devfire.io/p/importance-of-ci-cd-modern-software-development/</guid>
+        <description>&lt;img src="https://devfire.io/p/importance-of-ci-cd-modern-software-development/cover.jpg" alt="Featured image of post The Importance of CI/CD in Modern Software Development" /&gt;&lt;p&gt;It&amp;rsquo;s past midnight and I&amp;rsquo;m staring at another failed build notification, the red X mocking me from my phone screen like some digital scarlet letter. CI/CD, they said. It&amp;rsquo;ll change everything, they said.&lt;/p&gt;
+&lt;p&gt;And they were right, I guess&amp;hellip; but not in the way I thought back when I was manually FTPing files to production servers and crossing my fingers that the database schema updates wouldn&amp;rsquo;t break everything. Those were simpler times, weren&amp;rsquo;t they? Just you, your code, and the terrifying rush of hitting deploy on a Friday afternoon because you were young and stupid and thought you were invincible.&lt;/p&gt;
+&lt;p&gt;Now everything&amp;rsquo;s automated and that should feel good, should feel safe, but sometimes I miss the weight of those decisions. The ceremony of it all. You had to really commit back then – every deployment was a whole thing, complete with backup plans and rollback scripts written on sticky notes that you&amp;rsquo;d inevitably lose.&lt;/p&gt;
+&lt;p&gt;These days the pipeline runs every time someone pushes to main and most of the time it works beautifully, catching bugs I would have missed, running tests I forgot I even wrote, spinning up containers in environments I barely understand. It&amp;rsquo;s magic, really. Pure magic wrapped in YAML files and Docker images and Kubernetes clusters that cost more per month than my first car.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s something unsettling about watching machines make decisions that used to keep me up at night. The green checkmarks flash by so fast now – build successful, tests passed, deployed to staging, deployed to production – and I can&amp;rsquo;t shake the feeling that I&amp;rsquo;m missing something important in all that automation.&lt;/p&gt;
+&lt;p&gt;Maybe it&amp;rsquo;s just nostalgia for pain, you know? Like how people romanticize vinyl records when Spotify sounds perfectly fine&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>An Interesting Trip to Italian Countryside</title>
         <link>https://devfire.io/p/an-interesting-trip-to-italian-countryside/</link>
         <pubDate>Mon, 28 Jul 2025 00:18:50 +0000</pubDate>
@@ -138,6 +152,36 @@
 &lt;p&gt;I think about the people who live there year-round, not just the visitors passing through. The woman who ran the small hotel in Villefranche-sur-Mer, how she remembered everyone&amp;rsquo;s coffee order and would sit with us in the evening, smoking cigarettes and talking about how the town had changed since she was young. The fisherman in Antibes who taught me three words in Provençal and laughed when I mispronounced them. The way locals would retreat to their shuttered houses during the hottest part of the day, emerging again when the sun started to sink.&lt;/p&gt;
 &lt;p&gt;I wonder sometimes if I really experienced it or if I just skimmed the surface, another tourist with a camera and limited time&amp;hellip; The French Riviera holds onto its secrets, I think, even as it opens its arms to millions of visitors. There&amp;rsquo;s something underneath all that sparkle and glamour, something older and more real, but I&amp;rsquo;m not sure I stayed long enough to find it. Maybe that&amp;rsquo;s the point - maybe it&amp;rsquo;s meant to leave you wanting more, dreaming about going back someday when you have more time, more money, more French vocabulary.&lt;/p&gt;
 &lt;p&gt;The train pulled away from Nice station on my last day, and I pressed my face to the window like a kid, watching the coastline disappear, already planning my return to a place that felt like a beautiful question I&amp;rsquo;d never quite learned how to ask.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Wandering Through the Italian Lakes</title>
+        <link>https://devfire.io/p/wandering-through-the-italian-lakes/</link>
+        <pubDate>Sat, 23 Mar 2024 19:46:59 +0000</pubDate>
+        
+        <guid>https://devfire.io/p/wandering-through-the-italian-lakes/</guid>
+        <description>&lt;img src="https://devfire.io/p/wandering-through-the-italian-lakes/cover.jpg" alt="Featured image of post Wandering Through the Italian Lakes" /&gt;&lt;p&gt;I&amp;rsquo;ve been thinking about water lately. Not in some profound way or anything, just the way it catches light and how it makes everything around it feel softer somehow. The Italian lakes do that better than anywhere I&amp;rsquo;ve been, and I guess I&amp;rsquo;ve been to a few places by now.&lt;/p&gt;
+&lt;p&gt;Lake Como was the first one I saw, back when I still thought taking pictures of everything would help me remember it better. The ferry was this ancient thing that smelled like diesel and wet rope, and I remember standing at the railing watching these impossibly grand villas slide past like something out of a movie set. But it was the sound that got me - not the engine or the water against the hull, but this weird quiet that settled over everything when we were between stops. Just the mountains reflecting in the water and old Italian men in pressed shirts reading newspapers like they had all the time in the world.&lt;/p&gt;
+&lt;p&gt;Lake Garda was different. Bigger, more touristy, but there was this one morning when I woke up early in Sirmione and walked down to the water before anyone else was up. The fog was still hanging over everything and these swans were just floating there, not doing much of anything. I sat on this stone wall that was probably older than my country and ate a terrible gas station croissant that somehow tasted perfect in that moment. You know?&lt;/p&gt;
+&lt;p&gt;Then there was Lake Maggiore with its islands that look like they were placed there by someone with really good taste. Isola Bella and all those terraced gardens that make you wonder how many people had to carry how much dirt up all those stairs. The peacocks were strutting around like they owned the place, which I guess they kind of do.&lt;/p&gt;
+&lt;p&gt;But it&amp;rsquo;s the in-between moments I think about most now. The way the light hit the water at exactly 6:47 PM from that restaurant balcony overlooking Bellagio. How my shoes got soaked walking along the shore at Varenna because I was too busy looking up at the mountains to watch where I was stepping. The taste of that Aperol Spritz that was mostly ice by the time I finished it, sitting there watching boats come and go like they&amp;rsquo;d been doing the same thing for centuries.&lt;/p&gt;
+&lt;p&gt;I wonder if those places change much, or if they just keep being beautiful while everything else gets complicated&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The Paris They Don&#39;t Put on Postcards</title>
+        <link>https://devfire.io/p/the-paris-they-dont-put-on-postcards/</link>
+        <pubDate>Wed, 24 Jan 2024 00:03:55 +0000</pubDate>
+        
+        <guid>https://devfire.io/p/the-paris-they-dont-put-on-postcards/</guid>
+        <description>&lt;img src="https://devfire.io/p/the-paris-they-dont-put-on-postcards/cover.jpg" alt="Featured image of post The Paris They Don&#39;t Put on Postcards" /&gt;&lt;p&gt;You know what nobody talks about when they come back from Paris? The smell of wet cigarettes mixed with fresh bread that hits you when you turn down those narrow streets behind Montmartre. Everyone&amp;rsquo;s always going on about the Eiffel Tower and the Louvre, but I swear the real magic is in the places where your phone loses signal and you have to actually look around.&lt;/p&gt;
+&lt;p&gt;I remember this one morning, must have been my third or fourth trip there, when I got completely lost trying to find some museum that probably wasn&amp;rsquo;t even worth it. Started raining, that fine Paris drizzle that soaks through your jacket without you noticing, and I ducked into this covered passage called Galerie Vivienne. Not because I knew what it was or anything. Just because it was dry.&lt;/p&gt;
+&lt;p&gt;The floor was this intricate mosaic that squeaked under my wet shoes and there were maybe six people in the whole place, all of them looking like they belonged there in ways I never would. There was this old bookshop with stacks of novels in languages I couldn&amp;rsquo;t identify and a tea shop where the owner was hand-lettering price signs in the most beautiful script I&amp;rsquo;ve ever seen. I bought nothing. Just stood there feeling like I&amp;rsquo;d accidentally wandered into someone else&amp;rsquo;s Tuesday afternoon.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the thing about Paris that gets me. The city everyone thinks they know from movies and Instagram posts, but then you find yourself in Père Lachaise cemetery on a foggy day and it feels more like a small town than anything touristy. The graves are all crumbling and overgrown, cats everywhere, and you can hear kids playing soccer in some unseen courtyard beyond the walls.&lt;/p&gt;
+&lt;p&gt;Or the Promenade Plantée, this elevated park they built on an old railway line. Sounds boring when I say it like that. But walking through it feels like you&amp;rsquo;re floating above the city, watching people in their apartments make coffee and argue and hang laundry, and somehow you&amp;rsquo;re both completely invisible and completely present at the same time.&lt;/p&gt;
+&lt;p&gt;I guess what bothers me is how we all seem to need permission to enjoy things. Like Paris has to be the Champs-Élysées or it doesn&amp;rsquo;t count. But the best parts were always the accidents. Getting off the metro at the wrong stop and finding that tiny market on Rue des Martyrs where the cheese guy remembered my terrible French accent from three days before. Or spending an hour in the Musée Rodin&amp;rsquo;s garden, not even looking at sculptures, just watching this old man feed sparrows from a paper bag.&lt;/p&gt;
+&lt;p&gt;Maybe that&amp;rsquo;s just what being 48 does to you. Makes you notice the stuff that doesn&amp;rsquo;t fit in guidebooks. The way the light hits those iron balconies at 4 PM, or how the city sounds different when it rains.&lt;/p&gt;
+&lt;p&gt;I wonder if the Paris in my head even exists anymore, or if it was always just the version I needed it to be&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         <item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Automation on General thoughts on tech and travel.</title>
+        <link>https://devfire.io/tags/automation/</link>
+        <description>Recent content in Automation on General thoughts on tech and travel.</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 28 Jul 2025 00:31:51 +0000</lastBuildDate><atom:link href="https://devfire.io/tags/automation/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The Importance of CI/CD in Modern Software Development</title>
+        <link>https://devfire.io/p/importance-of-ci-cd-modern-software-development/</link>
+        <pubDate>Mon, 28 Jul 2025 00:31:51 +0000</pubDate>
+        
+        <guid>https://devfire.io/p/importance-of-ci-cd-modern-software-development/</guid>
+        <description>&lt;img src="https://devfire.io/p/importance-of-ci-cd-modern-software-development/cover.jpg" alt="Featured image of post The Importance of CI/CD in Modern Software Development" /&gt;&lt;p&gt;It&amp;rsquo;s past midnight and I&amp;rsquo;m staring at another failed build notification, the red X mocking me from my phone screen like some digital scarlet letter. CI/CD, they said. It&amp;rsquo;ll change everything, they said.&lt;/p&gt;
+&lt;p&gt;And they were right, I guess&amp;hellip; but not in the way I thought back when I was manually FTPing files to production servers and crossing my fingers that the database schema updates wouldn&amp;rsquo;t break everything. Those were simpler times, weren&amp;rsquo;t they? Just you, your code, and the terrifying rush of hitting deploy on a Friday afternoon because you were young and stupid and thought you were invincible.&lt;/p&gt;
+&lt;p&gt;Now everything&amp;rsquo;s automated and that should feel good, should feel safe, but sometimes I miss the weight of those decisions. The ceremony of it all. You had to really commit back then – every deployment was a whole thing, complete with backup plans and rollback scripts written on sticky notes that you&amp;rsquo;d inevitably lose.&lt;/p&gt;
+&lt;p&gt;These days the pipeline runs every time someone pushes to main and most of the time it works beautifully, catching bugs I would have missed, running tests I forgot I even wrote, spinning up containers in environments I barely understand. It&amp;rsquo;s magic, really. Pure magic wrapped in YAML files and Docker images and Kubernetes clusters that cost more per month than my first car.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s something unsettling about watching machines make decisions that used to keep me up at night. The green checkmarks flash by so fast now – build successful, tests passed, deployed to staging, deployed to production – and I can&amp;rsquo;t shake the feeling that I&amp;rsquo;m missing something important in all that automation.&lt;/p&gt;
+&lt;p&gt;Maybe it&amp;rsquo;s just nostalgia for pain, you know? Like how people romanticize vinyl records when Spotify sounds perfectly fine&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

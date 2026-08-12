@@ -269,6 +269,28 @@
     .form-success p { margin-top: .6rem; }
     @keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
+    /* ---------- Team ---------- */
+    .team { margin-top: clamp(1.5rem, 4vw, 2.5rem); display: grid; gap: 0; }
+    .teammate {
+      display: grid; grid-template-columns: 14rem 1fr; gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: start;
+      padding: clamp(1.8rem, 3vw, 2.4rem) 0;
+      border-top: 1px solid var(--rule);
+    }
+    .teammate:last-child { border-bottom: 1px solid var(--rule); }
+    .teammate__photo {
+      width: 14rem; aspect-ratio: 1; border-radius: 3px; object-fit: cover;
+      background: var(--surface);
+    }
+    .teammate__name { display: flex; align-items: baseline; flex-wrap: wrap; gap: .8rem; }
+    .teammate__name h3 { font-size: clamp(1.4rem, 1.2rem + .9vw, 1.85rem); }
+    .teammate__role {
+      font-family: var(--mono); font-size: .74rem; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--accent);
+    }
+    .teammate__bio { margin-top: .9rem; max-width: 40rem; }
+    .teammate__bio p + p { margin-top: 1rem; }
+
     /* ---------- Footer ---------- */
     footer { border-top: 1px solid var(--rule); padding-block: clamp(2.5rem, 6vw, 4rem); margin-top: clamp(3rem, 8vw, 6rem); }
     .foot__grid { display: flex; flex-wrap: wrap; gap: 2rem 3rem; justify-content: space-between; align-items: flex-end; }
@@ -285,6 +307,8 @@
       .contact__grid { grid-template-columns: 1fr; }
       .phase { grid-template-columns: 1fr; gap: .4rem; }
       .work__row { grid-template-columns: 1fr; gap: .4rem; }
+      .teammate { grid-template-columns: 1fr; gap: 1rem; }
+      .teammate__photo { width: 10rem; }
     }
     @media (max-width: 520px) {
       .service { grid-template-columns: 3rem 1fr; gap: .6rem; }
@@ -309,6 +333,7 @@
         <a class="lnk" href="#services">Services</a>
         <a class="lnk" href="#work">Work</a>
         <a class="lnk" href="#about">About</a>
+        <a class="lnk" href="#team">Team</a>
         <a class="btn btn--solid" href="#contact">Contact <span class="arr" aria-hidden="true">→</span></a>
       </nav>
     </div>
@@ -437,10 +462,35 @@
       </div>
     </section>
 
+    <!-- ===================== TEAM ===================== -->
+    <section class="sec wrap" id="team">
+      <div class="sec__head">
+        <p class="eyebrow"><span class="num">06</span> Meet the team</p>
+        <h2>The people on the other end of the email.</h2>
+        <p class="sec__intro lead">Devfire is a handful of senior practitioners. No account managers, no junior staff learning on your dollar — the people who scope the work are the ones who do it.</p>
+      </div>
+      <div class="team">
+        <article class="teammate">
+          <img class="teammate__photo" src="img/adam-burke.jpg" width="224" height="224" alt="Adam Burke" loading="lazy">
+          <div class="teammate__detail">
+            <div class="teammate__name">
+              <h3>Adam Burke</h3>
+              <span class="teammate__role">CTO</span>
+            </div>
+            <div class="teammate__bio">
+              <p>Adam leads engineering at Devfire. He's spent twenty-five years building and scaling engineering teams for B2B SaaS companies — hiring across time zones, standing up the infrastructure that keeps a product reliable at three in the morning, and shipping systems that have to be right the first time because someone's workflow depends on them.</p>
+              <p>These days he's happiest in the advising seat — helping organizations figure out how to scale, and where AI genuinely fits rather than where it just looks good on a roadmap.</p>
+              <p>He was most recently VP of Engineering at Cordance. He studied at the Rochester Institute of Technology and works out of Raleigh, North Carolina.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <!-- ===================== CONTACT ===================== -->
     <section class="sec wrap" id="contact">
       <div class="sec__head">
-        <p class="eyebrow"><span class="num">06</span> Contact</p>
+        <p class="eyebrow"><span class="num">07</span> Contact</p>
         <h2>Tell us what you're building.</h2>
         <p class="sec__intro lead">Whether you're scoping your first AI feature or rescuing one that went sideways, we'd like to hear about it.</p>
       </div>

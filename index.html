@@ -232,13 +232,6 @@
     .phase__k span { display: block; font-family: var(--mono); font-size: .76rem; color: var(--ink-soft); letter-spacing: .1em; text-transform: uppercase; margin-top: .25rem; }
     .phase p { margin-top: .3rem; }
 
-    /* ---------- Principles ---------- */
-    .beliefs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; margin-top: clamp(1.5rem, 4vw, 2.5rem); }
-    .belief { padding: 1.7rem clamp(1.2rem, 3vw, 2.2rem) 1.7rem 0; border-top: 1px solid var(--rule); }
-    .belief:nth-child(2n) { border-left: 1px solid var(--rule); padding-left: clamp(1.2rem, 3vw, 2.2rem); }
-    .belief h3 { font-size: 1.2rem; }
-    .belief p { margin-top: .5rem; }
-
     /* ---------- Work ---------- */
     .work { margin-top: clamp(1.5rem, 4vw, 2.5rem); }
     .work__row { display: grid; grid-template-columns: 13rem 1fr; gap: 1.5rem; align-items: baseline; padding: 1.8rem 0; border-top: 1px solid var(--rule); }
@@ -282,8 +275,6 @@
     @media (max-width: 860px) {
       .nav__links .lnk { display: none; }      /* keep wordmark + CTA on small screens; no hamburger needed on a one-pager */
       .contact__grid { grid-template-columns: 1fr; }
-      .belief:nth-child(2n) { border-left: 0; padding-left: 0; }
-      .beliefs { grid-template-columns: 1fr; }
       .phase { grid-template-columns: 1fr; gap: .4rem; }
       .work__row { grid-template-columns: 1fr; gap: .4rem; }
     }
@@ -403,36 +394,10 @@
       </div>
     </section>
 
-    <!-- ===================== PRINCIPLES ===================== -->
-    <section class="sec wrap" id="beliefs">
-      <div class="sec__head">
-        <p class="eyebrow"><span class="num">04</span> What we believe</p>
-        <h2>Four convictions that shape every engagement.</h2>
-      </div>
-      <div class="beliefs">
-        <div class="belief">
-          <h3>Accuracy is a feature, not a stretch goal.</h3>
-          <p>A confident wrong answer is worse than no answer — especially for a learner who trusts it.</p>
-        </div>
-        <div class="belief">
-          <h3>Teachers are the decision-makers.</h3>
-          <p>Build for the person who decides whether your product stays in the room.</p>
-        </div>
-        <div class="belief">
-          <h3>Reduce load. Don't add surveillance.</h3>
-          <p>The best AI gives teachers time back. It doesn't grade them on it.</p>
-        </div>
-        <div class="belief">
-          <h3>Ship the smallest thing that helps a learner this week.</h3>
-          <p>Momentum beats monuments. Real users beat demos.</p>
-        </div>
-      </div>
-    </section>
-
     <!-- ===================== WORK ===================== -->
     <section class="sec wrap" id="work">
       <div class="sec__head">
-        <p class="eyebrow"><span class="num">05</span> Selected work</p>
+        <p class="eyebrow"><span class="num">04</span> Selected work</p>
         <h2>Outcomes, anonymized.</h2>
       </div>
       <div class="work">
@@ -455,7 +420,7 @@
     <!-- ===================== ABOUT ===================== -->
     <section class="sec wrap" id="about">
       <div class="sec__head">
-        <p class="eyebrow"><span class="num">06</span> About</p>
+        <p class="eyebrow"><span class="num">05</span> About</p>
         <h2>Between two worlds that rarely meet.</h2>
       </div>
       <div class="about__body">
@@ -467,7 +432,7 @@
     <!-- ===================== CONTACT ===================== -->
     <section class="sec wrap" id="contact">
       <div class="sec__head">
-        <p class="eyebrow"><span class="num">07</span> Contact</p>
+        <p class="eyebrow"><span class="num">06</span> Contact</p>
         <h2>Tell us what you're building.</h2>
         <p class="sec__intro lead">Whether you're scoping your first AI feature or rescuing one that went sideways, we'd like to hear about it.</p>
       </div>

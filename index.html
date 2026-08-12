@@ -260,6 +260,14 @@
     input:focus, textarea:focus { outline: none; border-bottom-color: var(--accent); }
     textarea { resize: vertical; min-height: 6rem; line-height: 1.5; }
     form .btn { justify-self: start; margin-top: .4rem; }
+    /* form feedback (Formspark AJAX) */
+    .hp { position: absolute !important; left: -9999px !important; width: 1px !important; height: 1px !important; opacity: 0 !important; }
+    .btn[disabled] { opacity: .5; cursor: default; }
+    .form-note { font-size: .92rem; color: var(--accent); line-height: 1.5; }
+    .form-success { animation: rise .3s ease; }
+    .form-success h3 { font-size: 1.4rem; }
+    .form-success p { margin-top: .6rem; }
+    @keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
     /* ---------- Footer ---------- */
     footer { border-top: 1px solid var(--rule); padding-block: clamp(2.5rem, 6vw, 4rem); margin-top: clamp(3rem, 8vw, 6rem); }
@@ -440,21 +448,31 @@
         <div class="contact__meta">
           <p class="promise muted">We read every message ourselves. Expect a thoughtful reply within two business days.</p>
         </div>
-        <form id="contact-form" novalidate>
-          <div class="field">
-            <label for="f-name">Name</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required>
+        <div class="contact__form">
+          <form id="contact-form" action="https://submit-form.com/Irn10wGUB" method="POST">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="f-msg">What are you building?</label>
+              <textarea id="f-msg" name="message" required></textarea>
+            </div>
+            <!-- Formspark honeypot: real users never see this field; bots fill it and get dropped silently. -->
+            <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button class="btn btn--solid" type="submit">Send <span class="arr" aria-hidden="true">→</span></button>
+            <p class="form-note" role="alert" hidden></p>
+          </form>
+          <div class="form-success" hidden tabindex="-1" aria-live="polite">
+            <h3>Thanks — your message is in.</h3>
+            <p class="muted">We read every note ourselves and reply within two business days. Talk soon.</p>
+            <button class="btn btn--ghost" type="button" data-reset>Send another <span class="arr" aria-hidden="true">→</span></button>
           </div>
-          <div class="field">
-            <label for="f-email">Email</label>
-            <input id="f-email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="field">
-            <label for="f-msg">What are you building?</label>
-            <textarea id="f-msg" name="message" required></textarea>
-          </div>
-          <button class="btn btn--solid" type="submit">Send <span class="arr" aria-hidden="true">→</span></button>
-        </form>
+        </div>
       </div>
     </section>
   </main>
@@ -512,23 +530,57 @@
       window.addEventListener("scroll", onScroll, { passive: true });
       onScroll();
 
-      // Contact form: no backend on static hosting, so compose a mailto.
-      // To use a hosted inbox instead (e.g. Formspree), set form.action +
-      // method="POST" and remove the preventDefault below.
+      // Contact form → Formspark (https://formspark.io). JS upgrades the POST
+      // to AJAX so visitors stay on the page and get inline feedback; with JS
+      // off, the form POSTs natively to Formspark's inbox (action/method above).
       var form = document.getElementById("contact-form");
+      var note = form.querySelector(".form-note");
+      var success = document.querySelector(".form-success");
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var idleLabel = submitBtn.innerHTML;
+
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        var to = "hello@devfire.io";
-        var name = (form.elements["name"].value || "").trim();
-        var email = (form.elements["email"].value || "").trim();
-        var msg = (form.elements["message"].value || "").trim();
-        if (!name || !email || !msg) { return; }
-        var subject = "Project inquiry from " + name;
-        var body = msg + "\n\n— " + name + "\n" + email;
-        window.location.href = "mailto:" + to +
-          "?subject=" + encodeURIComponent(subject) +
-          "&body=" + encodeURIComponent(body);
+        var payload = {
+          name: form.elements["name"].value.trim(),
+          email: form.elements["email"].value.trim(),
+          message: form.elements["message"].value.trim()
+        };
+        if (!payload.name || !payload.email || !payload.message) { return; }
+
+        note.hidden = true;
+        note.textContent = "";
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "Sending…";
+
+        fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify(payload)
+        }).then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+        }).then(function () {
+          form.hidden = true;
+          success.hidden = false;
+          success.focus();
+          form.reset();
+        }).catch(function () {
+          note.hidden = false;
+          note.textContent = "Couldn't send — please try again, or email hello@devfire.io directly.";
+        }).finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = idleLabel;
+        });
       });
+
+      var resetBtn = success.querySelector("[data-reset]");
+      if (resetBtn) {
+        resetBtn.addEventListener("click", function () {
+          success.hidden = true;
+          form.hidden = false;
+          form.elements["name"].focus();
+        });
+      }
     })();
   </script>
 </body>
